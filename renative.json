@@ -1,0 +1,31 @@
+{
+    "projectName": "scratch",
+    "workspaceID": "rnv",
+    "paths": {
+        "appConfigsDir": "./appConfigs",
+        "platformTemplatesDir": "$RNV_HOME/platformTemplates",
+        "entryDir": "./",
+        "platformAssetsDir": "./platformAssets",
+        "platformBuildsDir": "./platformBuilds",
+        "projectConfigDir": "./projectConfig"
+    },
+    "defaults": {
+        "title": "Desde las bases",
+        "id": "com.corellana.dev",
+        "supportedPlatforms": [
+            "android",
+            "androidwear",
+            "ios",
+            "macos",
+            "web",
+            "windows"
+        ]
+    },
+    "templates": {
+        "@reactseals/renative-template-chat": {
+            "version": "0.3.8"
+        }
+    },
+    "currentTemplate": "@reactseals/renative-template-chat",
+    "isNew": true
+}
